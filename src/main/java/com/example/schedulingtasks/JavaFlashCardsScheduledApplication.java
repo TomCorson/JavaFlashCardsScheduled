@@ -6,11 +6,11 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-public class SchedulingTasksApplication {
+public class JavaFlashCardsScheduledApplication {
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(SchedulingTasksApplication.class);
+		SpringApplication.run(JavaFlashCardsScheduledApplication.class);
 	}
 
 }
