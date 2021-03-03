@@ -7,8 +7,8 @@ import com.twilio.type.PhoneNumber;
 
 public class MakeText {
 
-    private static final String ACCOUNT_SID = System.getenv("AS");
-    private static final String AUTH_TOKEN = System.getenv("AT");
+    private static final String ACCOUNT_SID = System.getenv("ACCTSID");
+    private static final String AUTH_TOKEN = System.getenv("AUTHTOKEN");
 
 
     public static String send (String text){
